@@ -1,7 +1,7 @@
 # weather-app
 Search location, get current weather
 
-Buit with
+Built with
 nodejs & express
 
 deployed on heroku:
