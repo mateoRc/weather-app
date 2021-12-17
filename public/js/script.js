@@ -27,6 +27,8 @@ weatherForm.addEventListener('submit', (e) => {
                 messageTwo.textContent = 'Currently is ' + data.description
                                             + '. Temperature is ' + data.temperature + '°C outside'
                                             + '. Feels like ' + data.feelslike + '°C.'
+                                            + ' UV index is ' + data.uv_index
+                                            + ' and humidity is ' + data.humidity + '%.'
             }
         })
     })
